@@ -42,6 +42,7 @@
 		41ED1A8C271D57A4006713A6 = {
 			isa = PBXGroup;
 			children = (
+				41ED1AAC271D5B04006713A6 /* README.md */,
 				41ED1A97271D57A4006713A6 /* iPhoneDevicesExample */,
 				41ED1A96271D57A4006713A6 /* Products */,
 			);
@@ -65,7 +66,6 @@
 				41ED1AA1271D57AA006713A6 /* Assets.xcassets */,
 				41ED1AA3271D57AA006713A6 /* LaunchScreen.storyboard */,
 				41ED1AA6271D57AA006713A6 /* Info.plist */,
-				41ED1AAC271D5B04006713A6 /* README.md */,
 			);
 			path = iPhoneDevicesExample;
 			sourceTree = "<group>";
