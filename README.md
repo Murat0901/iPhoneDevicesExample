@@ -1,5 +1,7 @@
 # iPhone Devices - Swift Example Project
 
+![Alt text](https://im3.ezgif.com/tmp/ezgif-3-5ff5f69f6649.gif "Title")
+
 It's an application related to the use of TableView and implementation of tab bar controller, navigation controller, scroll view and storyboard.
 
 
