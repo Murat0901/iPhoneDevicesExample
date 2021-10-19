@@ -10,7 +10,7 @@
 		41D9B344271D5FF2008211CC /* PhoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9B343271D5FF2008211CC /* PhoneTableViewCell.swift */; };
 		41D9B346271D86AC008211CC /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9B345271D86AC008211CC /* TestViewController.swift */; };
 		41D9B348271E966A008211CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9B347271E966A008211CC /* DetailViewController.swift */; };
-		41D9B34A271EBAF5008211CC /* iphonedevices.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41D9B349271EBAF5008211CC /* iphonedevices.gif */; };
+		41D9B34C271EBCC1008211CC /* iphonedevices.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41D9B34B271EBCC1008211CC /* iphonedevices.gif */; };
 		41ED1A99271D57A4006713A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED1A98271D57A4006713A6 /* AppDelegate.swift */; };
 		41ED1A9B271D57A4006713A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED1A9A271D57A4006713A6 /* SceneDelegate.swift */; };
 		41ED1AA0271D57A4006713A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ED1A9E271D57A4006713A6 /* Main.storyboard */; };
@@ -24,7 +24,7 @@
 		41D9B343271D5FF2008211CC /* PhoneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTableViewCell.swift; sourceTree = "<group>"; };
 		41D9B345271D86AC008211CC /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		41D9B347271E966A008211CC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		41D9B349271EBAF5008211CC /* iphonedevices.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iphonedevices.gif; sourceTree = "<group>"; };
+		41D9B34B271EBCC1008211CC /* iphonedevices.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iphonedevices.gif; sourceTree = "<group>"; };
 		41ED1A95271D57A4006713A6 /* iPhoneDevicesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneDevicesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41ED1A98271D57A4006713A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41ED1A9A271D57A4006713A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		41ED1A8C271D57A4006713A6 = {
 			isa = PBXGroup;
 			children = (
-				41D9B349271EBAF5008211CC /* iphonedevices.gif */,
+				41D9B34B271EBCC1008211CC /* iphonedevices.gif */,
 				41ED1AAC271D5B04006713A6 /* README.md */,
 				41ED1A97271D57A4006713A6 /* iPhoneDevicesExample */,
 				41ED1A96271D57A4006713A6 /* Products */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41ED1AA5271D57AA006713A6 /* LaunchScreen.storyboard in Resources */,
-				41D9B34A271EBAF5008211CC /* iphonedevices.gif in Resources */,
+				41D9B34C271EBCC1008211CC /* iphonedevices.gif in Resources */,
 				41ED1AA2271D57AA006713A6 /* Assets.xcassets in Resources */,
 				41ED1AAD271D5B04006713A6 /* README.md in Resources */,
 				41ED1AA0271D57A4006713A6 /* Main.storyboard in Resources */,
