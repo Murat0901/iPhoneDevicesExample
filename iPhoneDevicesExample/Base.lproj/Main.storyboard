@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -57,10 +58,56 @@
                             <outlet property="delegate" destination="vRK-OS-gHS" id="GJf-vq-akX"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="O4p-Tt-wWF" kind="show" identifier="goToDetail" id="unf-ks-rqT"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SVw-J9-2Yc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="50.724637681159422" y="122.54464285714285"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="d72-39-otL">
+            <objects>
+                <viewController id="O4p-Tt-wWF" customClass="DetailViewController" customModule="iPhoneDevicesExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DWP-zL-hxR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V5w-F8-o6y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="C3U-IU-M2r"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4W-AG-lh5">
+                                <rect key="frame" x="0.0" y="410" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YC3-1q-5qN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="J4W-AG-lh5" firstAttribute="centerX" secondItem="DWP-zL-hxR" secondAttribute="centerX" id="HyS-dN-wdh"/>
+                            <constraint firstItem="J4W-AG-lh5" firstAttribute="leading" secondItem="YC3-1q-5qN" secondAttribute="leading" id="PY8-4y-5te"/>
+                            <constraint firstItem="V5w-F8-o6y" firstAttribute="trailing" secondItem="YC3-1q-5qN" secondAttribute="trailing" id="RI8-1F-YWm"/>
+                            <constraint firstItem="J4W-AG-lh5" firstAttribute="top" secondItem="V5w-F8-o6y" secondAttribute="bottom" constant="80" id="RcT-qX-8eF"/>
+                            <constraint firstItem="V5w-F8-o6y" firstAttribute="leading" secondItem="YC3-1q-5qN" secondAttribute="leading" id="gOY-O3-mI9"/>
+                            <constraint firstItem="V5w-F8-o6y" firstAttribute="top" secondItem="YC3-1q-5qN" secondAttribute="top" id="vP1-0E-LXh"/>
+                            <constraint firstItem="YC3-1q-5qN" firstAttribute="trailing" secondItem="J4W-AG-lh5" secondAttribute="trailing" id="zOQ-h2-vQr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7OV-rv-J0I"/>
+                    <connections>
+                        <outlet property="phoneImg" destination="V5w-F8-o6y" id="jN4-La-5Cm"/>
+                        <outlet property="phoneLabel" destination="J4W-AG-lh5" id="4o8-60-dzD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MV6-H2-BM6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824.63768115942037" y="122.54464285714285"/>
         </scene>
     </scenes>
     <resources>
